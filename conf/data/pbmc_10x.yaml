@@ -1,0 +1,7 @@
+defaults:
+  - data.yaml
+
+data_path: "data/pbmc_10x.h5ad"
+batch_key: "batch"
+celltype_key: "CellType"
+counts_layer: "counts"

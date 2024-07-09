@@ -1,0 +1,15 @@
+# @package _global_
+hydra:
+  sweeper:
+    params:
+      random_seed: range(10,15)
+      +model: sctree
+      +data: pbmc3k,pbmc_subset,neftel_10x
+      model.decoder_n_layers: 0,1
+      model.n_latent: 8,16
+      model.router_n_layers: 0,1,2
+      model.encoder_arch: mlp,scvi
+      model.training.splitting_criterion: weighted_reconstruction,n_samples
+      model.training.lr: 0.0001,0.001
+      model.training.intermediate_epochs: 0,50
+      logging.project: scTree-final-final-final-sweep

@@ -1,0 +1,8 @@
+# @package _global_
+hydra:
+  sweeper:
+    params:
+      random_seed: range(10,20)
+      +model: agg,scvi,ldvae
+      +data: immune,ji,neftel_ss,pancreas,lung_atlas,pbmc,retina
+      logging.project: scTree-Leiden

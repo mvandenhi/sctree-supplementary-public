@@ -1,0 +1,8 @@
+defaults:
+  - data.yaml
+
+data_path: "data/Immune_ALL_human.h5ad"
+celltype_key: "final_annotation"
+counts_layer: "counts"
+batch_key: "batch"
+n_hvgs: 2000

@@ -1,0 +1,7 @@
+defaults:
+  - data.yaml
+
+data_path: "data/Lung_atlas_public.h5ad"
+celltype_key: "cell_type"
+batch_key: "batch"
+counts_layer: "counts"

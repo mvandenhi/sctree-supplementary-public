@@ -1,0 +1,8 @@
+# @package _global_
+hydra:
+  sweeper:
+    params:
+      random_seed: range(20,30)
+      +model: agg,ldvae,scvi
+      +data: neftel_10x,pbmc,pbmc_subset,pbmc_10x,lung_atlas
+      logging.project: scTree-baselines_vol3

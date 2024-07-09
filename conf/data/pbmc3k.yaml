@@ -1,0 +1,6 @@
+defaults:
+  - data.yaml
+
+data_path: "data/pbmc3k.h5ad"
+celltype_key: "celltype"
+counts_layer: "counts"

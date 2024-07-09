@@ -1,0 +1,7 @@
+defaults:
+  - data.yaml
+
+data_path: "data/retina.h5ad"
+celltype_key: "labels"
+batch_key: "batch"
+counts_layer: "counts"

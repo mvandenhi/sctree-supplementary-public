@@ -1,0 +1,8 @@
+defaults:
+  - data.yaml
+
+data_path: "data/Ji_skin.h5ad"
+batch_key: "sample"
+celltype_key: "celltype"
+counts_layer: "counts"
+remove_cycling: True

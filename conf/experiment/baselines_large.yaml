@@ -1,0 +1,8 @@
+# @package _global_
+hydra:
+  sweeper:
+    params:
+      random_seed: range(20,30)
+      +model: glob(*)
+      +data: lung_atlas,retina
+      logging.project: scTree-baselines_vol3

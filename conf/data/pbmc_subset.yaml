@@ -1,0 +1,7 @@
+defaults:
+  - data.yaml
+
+data_path: "data/pbmc_subset.h5ad"
+batch_key: "Experiment"
+celltype_key: "CellType"
+counts_layer: "counts"

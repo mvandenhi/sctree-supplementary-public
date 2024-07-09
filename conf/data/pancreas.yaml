@@ -1,0 +1,7 @@
+defaults:
+  - data.yaml
+
+data_path: "data/human_pancreas_norm_complexBatch.h5ad"
+celltype_key: "celltype"
+counts_layer: "counts"
+batch_key: "tech"

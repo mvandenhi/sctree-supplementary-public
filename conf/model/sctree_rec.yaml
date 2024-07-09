@@ -1,0 +1,5 @@
+defaults:
+  - sctree
+
+training:
+  splitting_criterion: 'grow_all_rec_diff_short'

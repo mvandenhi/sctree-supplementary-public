@@ -1,0 +1,10 @@
+# @package _global_
+hydra:
+  sweeper:
+    params:
+      random_seed: range(40,50)
+      +model: sctree_linear, sctree
+      +data: pbmc3k,pbmc_subset,neftel_10x
+      logging.project: scTree-splitting-full
+      model.training.splitting_criterion: n_samples,GMM_pca_10_1_diff,GMM_pca_stand_10_1_diff,GMM_leaf_emb_2_1_diff,GMM_pca_1clust,GMM_pca_2_1_diff,GMM_pca_stand_2_1_diff,GMM_pca_stand_2clust,grow_all,grow_all_rec_diff
+

@@ -1,0 +1,9 @@
+# @package _global_
+hydra:
+  sweeper:
+    params:
+      random_seed: range(5)
+      +model: glob(*)
+      +data: pbmc_subset,retina,neftel_10x
+      logging.project: scTree-new-baselines
+

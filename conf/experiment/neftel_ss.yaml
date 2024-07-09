@@ -1,0 +1,8 @@
+# @package _global_
+hydra:
+  sweeper:
+    params:
+      random_seed: range(10,20)
+      model: agg,ldvae,scvi,sctree,sctree_rec
+      data: neftel_ss
+      logging.project: scTree-ICML

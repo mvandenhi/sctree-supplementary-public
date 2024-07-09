@@ -1,0 +1,8 @@
+# @package _global_
+hydra:
+  sweeper:
+    params:
+      random_seed: range(20,30)
+      +model: sctree_weighted,sctree_linear_weighted
+      +data: pbmc,immune
+      logging.project: scTree-baselines_vol2

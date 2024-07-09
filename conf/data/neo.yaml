@@ -1,0 +1,8 @@
+defaults:
+  - data.yaml
+
+data_path: "data/Neocortex.h5ad"
+batch_key: "batchlb"
+celltype_key: "celltype"
+counts_layer: "counts"
+

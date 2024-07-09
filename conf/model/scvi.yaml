@@ -1,0 +1,2 @@
+model: scvi
+n_latent: 10

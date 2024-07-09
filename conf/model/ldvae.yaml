@@ -1,0 +1,2 @@
+model: ldvae
+n_latent: 10
